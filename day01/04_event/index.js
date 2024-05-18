@@ -1,5 +1,5 @@
+// 1.
 /*
-1.
 const btn = document.createElement("button");
 btn.innerText = "클릭!";
 
@@ -8,10 +8,10 @@ btn.addEventListener("mouseover", () => {
 });
 
 document.body.appendChild(btn);
-*/
+ */
 
+// 2
 /*
-2.
 const divTag = document.createElement("div");
 divTag.style.width = "100px";
 divTag.style.height = "100px";
@@ -28,8 +28,8 @@ divTag.addEventListener("mouseout", () => {
 document.body.appendChild(divTag);
 */
 
+// 3
 /*
-3.
 const btnTag = document.createElement("button");
 btnTag.innerText = "파란상자";
 
@@ -46,11 +46,11 @@ btnTag.addEventListener("click", () => {
 });
 */
 
+// 4
 /*
-4.
 const colorBox = document.createElement("div");
-colorBox.style.width = "500px";
-colorBox.style.height = "500px";
+colorBox.style.width = "100px";
+colorBox.style.height = "100px";
 colorBox.style.backgroundColor = "black";
 colorBox.style.marginBottom = "20px";
 
@@ -86,7 +86,7 @@ document.body.appendChild(btnBlue);
 */
 
 /*
-5.*/
+// 5.
 // 팔레트
 const colorBox = document.createElement("div");
 colorBox.style.width = "100px";
@@ -121,3 +121,4 @@ btnAddColor.addEventListener("click", () => {
     colorBox.style.backgroundColor = userColor;
   });
 });
+*/
