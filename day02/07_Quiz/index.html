@@ -8,21 +8,29 @@
     <script src="index.js" defer></script>
   </head>
   <body>
-    <span class="americano">아메리카노 3,000원</span>
-    <button class="americanoBtn">구매하기</button>
-    <p></p>
-    <span class="latte">라떼 3,500원</span>
-    <button class="latteBtn">구매하기</button>
-    <p></p>
-    <span class="vanila">바닐라 4,000원</span>
-    <button class="vanilaBtn">구매하기</button>
-    <p></p>
-    <span>============</span>
-    <p></p>
+    <div class="layoutAmericano">
+      <div>아메리카노 3,000원</div>
+      <button class="americanoBtn">구매하기</button>
+    </div>
 
-    <span>총합 구매:</span><span class="totalCnt">0</span> <span>총금액: </span
-    ><span class="totalPrice">0</span>
-    <p></p>
-    <button class="resetBtn">다시구매하기</button>
+    <div class="layoutLatte">
+      <div>라떼 3,500원</div>
+      <button class="latteBtn">구매하기</button>
+    </div>
+
+    <div class="layoutVanila">
+      <div>바닐라라떼 4,000원</div>
+      <button class="vanilaBtn">구매하기</button>
+    </div>
+
+    <div class="line">==============================</div>
+
+    <div class="total">
+      <span>총 개수</span>
+      <span class="totalCnt">0</span>
+      <span>총 가격</span>
+      <span class="totalPrice">0</span>
+      <button class="resetBtn">RESET</button>
+    </div>
   </body>
 </html>

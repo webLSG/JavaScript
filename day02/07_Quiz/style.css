@@ -1,0 +1,32 @@
+@font-face {
+  /* 프리텐다드 */
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  width: 15vw;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  font-family: "Pretendard-Regular";
+}
+
+.layoutAmericano,
+.layoutLatte,
+.layoutVanila {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.line,
+.total {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
