@@ -8,7 +8,7 @@
 }
 
 body {
-  width: 15vw;
+  width: 30vw;
 
   display: flex;
   flex-direction: column;
@@ -29,4 +29,14 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cafeBtn {
+  padding: 3px 20px;
 }

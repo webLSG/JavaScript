@@ -3,11 +3,23 @@ totalCnt = document.querySelector(".totalCnt");
 totalPrice = document.querySelector(".totalPrice");
 
 // 아메리카노
-americanoBtn = document.querySelector(".americanoBtn");
+americanoPlusBtn = document.querySelector(".americanoPlusBtn");
+americanoMinusBtn = document.querySelector(".americanoMinusBtn");
 
-americanoBtn.addEventListener("click", () => {
+americanoPlusBtn.addEventListener("click", () => {
   totalCnt.innerText = Number(totalCnt.innerText) + 1;
   totalPrice.innerText = Number(totalPrice.innerText) + 3000;
+});
+americanoMinusBtn.addEventListener("click", () => {
+  const minusCnt =
+    Number(totalCnt.innerText) === 0 ? 0 : Number(totalCnt.innerText) - 1;
+  totalCnt.innerText = minusCnt;
+
+  const minusPrice =
+    Number(totalPrice.innerText) === 0
+      ? 0
+      : Number(totalPrice.innerText) - 3000;
+  totalPrice.innerText = minusPrice;
 });
 
 // 라떼
