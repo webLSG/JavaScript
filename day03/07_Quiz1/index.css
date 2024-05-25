@@ -1,0 +1,37 @@
+.btn {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.borderBtn,
+.sizeBtn,
+.colorBtn {
+  width: 120px;
+  height: 35px;
+}
+.box {
+  border: 1px solid black;
+}
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+
+.medium {
+  width: 100px;
+  height: 100px;
+}
+.large {
+  width: 200px;
+  height: 200px;
+}
+
+.borderRadiusZero {
+  border-radius: 0;
+}
+.borderRadiusTen {
+  border-radius: 10px;
+}
