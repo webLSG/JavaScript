@@ -1,4 +1,3 @@
-/**
 // forEach, some, every, map, filter
 const arr = [1, 3, 5, 7, 9];
 const fruits = [
@@ -12,9 +11,16 @@ const fruits = [
 ];
 
 // map(바꾸기)
+// 모든 원소에 *10
 const a1 = arr.map((v) => v * 10);
+
+// 모든 원소가 본인 숫자만큼 제곱
 const a2 = arr.map((v) => v ** v);
+
+// 6보다 작으면 +10, 아니면 *10
 const a3 = arr.map((v) => (v < 6 ? v + 10 : v * 10));
+
+// (인덱스번호)홀수: *3, 짝수: *2
 const a4 = arr.map((v, i) => (i % 2 ? v * 3 : v * 2));
 
 // console.log(a4);
@@ -82,7 +88,6 @@ const makeArr = (n, k) =>
 
 console.log(makeArr(10, 3));
 console.log(makeArr(20, 5));
- */
 
 //
 const arr100 = Array(100)
@@ -91,9 +96,9 @@ const arr100 = Array(100)
 
 console.log(arr100.reduce((acc, curr) => acc + curr));
 
-const fruits = ["apple", "banana", "orange", "kiwi", "tomato"];
+const fruits1 = ["apple", "banana", "orange", "kiwi", "tomato"];
 
-const result = fruits
+const result = fruits1
   .map((v) =>
     [...v].filter((v1) => ![..."aeiou"].some((v2) => v2 == v1)).join("")
   )
