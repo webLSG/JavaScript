@@ -102,7 +102,7 @@ console.log(arr100.reduce((acc, curr) => acc + curr));
 
 const fruits1 = ["apple", "banana", "orange", "kiwi", "tomato"];
 
-// 모음빼기
+// 모음빼고 묶어서 출력
 const result = fruits1
   .map((v) =>
     [...v].filter((v1) => ![..."aeiou"].some((v2) => v2 == v1)).join("")
