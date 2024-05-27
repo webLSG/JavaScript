@@ -799,6 +799,7 @@ newData.forEach((v) => {
   box.appendChild(img);
   box.appendChild(h2);
   box.appendChild(h4);
+  box.classList.add("box");
 
   const container = document.querySelector(".container");
   container.appendChild(box);
