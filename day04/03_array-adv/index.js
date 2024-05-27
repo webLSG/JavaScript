@@ -25,11 +25,11 @@ const a4 = arr.map((v, i) => (i % 2 ? v * 3 : v * 2));
 
 // console.log(a4);
 
-//
+// a를 포함하는지? => 포함: 대문자, 미포함: 글자길이표시
 const f1 = fruits.map((v) => (v.includes("a") ? v.toUpperCase() : v.length));
 // console.log(f1);
 
-//
+// 5보다 큰 수 출력 / 인덱스 짝수 출력
 const b1 = arr.filter((v) => v > 5);
 const b2 = arr.filter((v, i) => !(i % 2));
 
@@ -52,7 +52,7 @@ console.log(f3);
 const c = Array(10); // 10칸 배열 만들기
 
 // 0~100 배열
-const c1 = Array(101) 
+const c1 = Array(101)
   .fill(0)
   .map((v, i) => i)
   .filter((v) => v % 2);
