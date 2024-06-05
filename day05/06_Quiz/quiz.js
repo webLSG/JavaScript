@@ -1,5 +1,3 @@
-import { data } from "./data.js";
-
 // Q1. timezone = Europe 데이터 중 phone, fullName, ipAddress
 
 // Q2. id가 짝수인 데이터 중 timezone[대륙만], phone[-빼고], money[$빼고]
