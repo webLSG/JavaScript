@@ -17,9 +17,7 @@ getCardData
 
 const bindData = (type, number, expiration, owner) => {
   const table = document.querySelector(".table");
-  const newNum =
-    number.padStart(number.slice(4), "*") +
-    number.slice(4, number.length).join("");
+  const newNum = number.slice(4, number.length).padStart(number.length, "*");
   // "****" + number.slice(4, number.length).join("");
 
   const newEx = new Date().getFullYear() + "/" + expiration;
